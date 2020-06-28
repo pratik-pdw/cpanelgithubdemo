@@ -1,8 +1,4 @@
   ---
 deployment:
   tasks:
-    - /bin/rm *.html /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
-    - /bin/rm *.js /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
-    - /bin/rm *.css /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
-    - /bin/rm -r assets /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
     - /bin/cp -R dist/cpanelgithubdemo/* /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
