@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - /bin/rm -f /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me/* 
-    - /bin/touch a_1.txt
+    - touch a_1.txt
     - /bin/cp -R /home/repositories/cpanelgithubdemo/dist/cpanelgithubdemo/* /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
     
     
