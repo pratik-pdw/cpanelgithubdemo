@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - cd ../../cpanelgithubdemo.pratikwadekar.me/ && rm *.js && rm *.html && rm *.css && rm *.txt && rm *.ico && rm -r assets
-    - cd ../repositories/cpanelgithubdemo/ && cp -R dist/restful-builder/* /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
+    - /bin/cp -R ../repositories/cpanelgithubdemo/dist/cpanelgithubdemo/* ../../../../home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
