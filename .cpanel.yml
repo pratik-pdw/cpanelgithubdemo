@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -R /dist/cpanelgithubdemo/* /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
+    - /bin/cp -R dist/cpanelgithubdemo/* /home/pratiqpd/cpanelgithubdemo.pratikwadekar.me
     
     
